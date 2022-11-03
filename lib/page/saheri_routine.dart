@@ -19,7 +19,7 @@ class _ShariState extends State<Shari> {
   @override
   void dispose() {
     super.dispose();
-    industrial();
+    // industrial();
 
     print("111111111---11111111111111");
   }

@@ -16,7 +16,7 @@ class _SurasomuhdiacriptionState extends State<Surasomuhdiacription> {
   @override
   void dispose() {
     super.dispose();
-    industrial();
+    //  industrial();
 
     print("111111111---11111111111111");
   }
@@ -91,7 +91,7 @@ class _SurasomuhdiacriptionState extends State<Surasomuhdiacription> {
                           fontSize: 14,
                         )),
                     SizedBox(height: 10),
-                    FacebookAdd(),
+                    //    FacebookAdd(),
                   ],
                 ),
               ),

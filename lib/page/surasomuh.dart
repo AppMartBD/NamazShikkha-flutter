@@ -16,7 +16,7 @@ class _SuraSomuhState extends State<SuraSomuh> {
   @override
   void dispose() {
     super.dispose();
-    industrial();
+    // industrial();
 
     print("111111111---11111111111111");
   }
@@ -97,7 +97,7 @@ class _SuraSomuhState extends State<SuraSomuh> {
                       ),
                     )),
               ),
-              FacebookAdd(),
+              //  FacebookAdd(),
             ],
           ),
         ),

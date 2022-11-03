@@ -1,20 +1,19 @@
-import 'package:facebook_audience_network/facebook_audience_network.dart';
+//import 'package:facebook_audience_network/facebook_audience_network.dart';
 import 'package:flutter/material.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
-//import 'package:animated_splash_screen/animated_splash_screen.dart';
+//import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'page/splash_home.dart';
 
 void main() {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-  MobileAds.instance.initialize();
+  //MobileAds.instance.initialize();
 
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
-  FacebookAudienceNetwork.init(
-    // testingId: "328404cebf50ec1fdb05795c0007a8a7", //test
-    testingId: "1096060697976196", //orginal
-    iOSAdvertiserTrackingEnabled: true,
-  );
+  // FacebookAudienceNetwork.init(
+  //   testingId: "328404cebf50ec1fdb05795c0007a8a7", //test
+  //   //testingId: "1096060697976196", //orginal
+  //   iOSAdvertiserTrackingEnabled: true,
+  // );
 
   runApp(SehariApp());
 }

@@ -1,7 +1,6 @@
 // ignore_for_file: camel_case_types
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-
 import '../model/sharitime.dart';
 import 'facebookadd.dart';
 import 'google_add.dart';
@@ -37,7 +36,7 @@ class _SehariHome_ScreenState extends State<SehariHome_Screen> {
   @override
   void dispose() {
     super.dispose();
-    industrial();
+    //  industrial();
 
     print("111111111---11111111111111");
   }
@@ -258,7 +257,7 @@ class _SehariHome_ScreenState extends State<SehariHome_Screen> {
                   SizedBox(
                     height: 10,
                   ),
-                  BannerAdmob(),
+                  //  BannerAdmob(),
                 ],
               ),
             )
@@ -328,7 +327,7 @@ class _SehariHome_ScreenState extends State<SehariHome_Screen> {
                         ),
                       ),
                       SizedBox(height: 30),
-                      nativeAd(),
+                      //  nativeAd(),
                     ],
                   ),
                 ),
@@ -337,7 +336,7 @@ class _SehariHome_ScreenState extends State<SehariHome_Screen> {
             SizedBox(
               height: 30,
             ),
-            FacebookAdd(),
+            //   FacebookAdd(),
             SizedBox(height: 10),
             SizedBox(
                 width: 350,

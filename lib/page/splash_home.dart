@@ -40,7 +40,7 @@ class _splashScreenState extends State<SplashScreen> {
     await Future.delayed(const Duration(seconds: 1));
     print('go!');
     FlutterNativeSplash.remove();
-    openingAd();
+    // openingAd();
   }
 
   @override
@@ -111,7 +111,7 @@ class _splashScreenState extends State<SplashScreen> {
                         SizedBox(
                           height: 70,
                         ),
-                        nativeAd(),
+                        //   nativeAd(),
                       ],
                     ),
                   )
