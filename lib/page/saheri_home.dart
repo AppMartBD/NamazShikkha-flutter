@@ -2,8 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../model/sharitime.dart';
-import 'facebookadd.dart';
-import 'google_add.dart';
+// import 'facebookadd.dart';
+// import 'google_add.dart';
 import 'saheri_routine.dart';
 import 'sura.dart';
 import 'surasomuh.dart';
@@ -32,14 +32,6 @@ class _SehariHome_ScreenState extends State<SehariHome_Screen> {
   //   openingAd;
   //   print("000000000000-------00000000000000");
   // }
-
-  @override
-  void dispose() {
-    super.dispose();
-    //  industrial();
-
-    print("111111111---11111111111111");
-  }
 
   void _launchURL() async {
     // ignore: deprecated_member_use

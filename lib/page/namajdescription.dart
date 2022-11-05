@@ -12,14 +12,6 @@ class NamajSikkha extends StatefulWidget {
 
 class _NamajSikkhaState extends State<NamajSikkha> {
   @override
-  void dispose() {
-    super.dispose();
-    // industrial();
-
-    print("111111111---11111111111111");
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(

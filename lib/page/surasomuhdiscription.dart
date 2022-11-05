@@ -14,14 +14,6 @@ class Surasomuhdiacription extends StatefulWidget {
 
 class _SurasomuhdiacriptionState extends State<Surasomuhdiacription> {
   @override
-  void dispose() {
-    super.dispose();
-    //  industrial();
-
-    print("111111111---11111111111111");
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(

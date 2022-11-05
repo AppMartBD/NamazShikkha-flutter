@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-
 import '../model/sharitime.dart';
-import 'facebookadd.dart';
+
+//import 'facebookadd.dart';
 
 // ignore: must_be_immutable
 class Shari extends StatefulWidget {
@@ -16,13 +16,6 @@ class _ShariState extends State<Shari> {
 
   // ignore: prefer_final_fields
   DateTime _dateTime = DateTime.now();
-  @override
-  void dispose() {
-    super.dispose();
-    // industrial();
-
-    //  print("111111111---11111111111111");
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -193,4 +186,4 @@ class _ShariState extends State<Shari> {
   }
 }
 
-class FormateDate {}
+// class FormateDate {}

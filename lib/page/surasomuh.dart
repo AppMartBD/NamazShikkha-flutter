@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../model/suralist.dart';
-import 'facebookadd.dart';
+//import 'facebookadd.dart';
 import 'surasomuhdiscription.dart';
 
 // ignore: must_be_immutable
@@ -13,13 +13,6 @@ class SuraSomuh extends StatefulWidget {
 class _SuraSomuhState extends State<SuraSomuh> {
   // ignore: prefer_final_fields
   SuraList _suralist = SuraList();
-  @override
-  void dispose() {
-    super.dispose();
-    // industrial();
-
-    print("111111111---11111111111111");
-  }
 
   @override
   Widget build(BuildContext context) {
