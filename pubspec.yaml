@@ -22,7 +22,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   intl: ^0.17.0
   url_launcher: ^6.0.20
-  flutter_native_splash: ^2.1.6
+  #  flutter_native_splash: ^2.1.6
   # google_mobile_ads: ^2.0.0
   # facebook_audience_network: ^1.0.1
 
@@ -45,6 +45,7 @@ dev_dependencies:
 
 
   flutter_lints: ^2.0.0
+  msix: ^2.6.5
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -88,3 +89,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+msix_config:
+  display_name: Namaz Shikkha
+  publisher_display_name: <PublisherName>
+  identity_name: <PublisherName.AppName>
+  publisher: <PublisherID>
+  msix_version: 1.0.0.0
+  logo_path: E:\flutterappsare\NamazShikkha-flutter\assets\playstore2.png
+  store: true
